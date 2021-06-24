@@ -3,7 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import user from './dbuser.js';
 import bcrypt from "bcrypt";
-const connection_url="mongodb+srv://raja:raja3381@cluster0.n9lt5.mongodb.net/userdb_reversestone?retryWrites=true&w=majority"
+const connection_url="mongodb+srv"
 //npm run watch
 mongoose.connect(connection_url,{
     useNewUrlParser:true,
